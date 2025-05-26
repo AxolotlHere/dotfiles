@@ -1,36 +1,9 @@
 
+
 {
   "segments": [
-    {
-      "type": "virtual_env",
-      "fg_color": 0,
-      "bg_color": 255
-    },
-    {
-      "type": "username",
-      "fg_color": 0,
-      "bg_color": 255
-    },
-    {
-      "type": "hostname",
-      "fg_color": 0,
-      "bg_color": 255
-    },
-    {
-      "type": "cwd",
-      "fg_color": 0,
-      "bg_color": 255
-    },
-    {
-      "type": "git",
-      "fg_color": 0,
-      "bg_color": 255
-    },
-    {
-      "type": "root",
-      "fg_color": 0,
-      "bg_color": 255
-    }
+    "cwd"
   ],
-  "theme": "default"
+  "theme":"~/themes/basic.py"
+
 }
