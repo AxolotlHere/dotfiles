@@ -1,0 +1,148 @@
+configuration {
+	modi:                       "drun";
+    show-icons:                 true;
+
+}
+
+
+* {
+    font:                        "JetBrainsMono Nerd Font 10";
+}
+
+
+window {
+    //transparency:                "real";
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  false;
+    enabled:                     true;
+    margin:                      0px;
+    padding:                     0px;
+    border-radius:               20px;
+    border: 1px;
+    border-color: white;
+    cursor:                      "default";
+    background-color:            #242323;
+    width: 300px;
+}
+
+
+mainbox {
+    enabled:                     true;
+    spacing:                     5px;
+    padding:                     8px;
+    background-color:            transparent;
+    children:                    [ "inputbar", "listview" ];
+}
+
+inputbar {
+    enabled:                     true;
+    spacing:                     0px;
+    margin:                      2px 2px 2px 2px;
+    border-radius:               15px;
+    border: 1px;
+    border-color:                white;
+    children:                    "entry" ;
+}
+entry {
+    enabled:                     true;
+    padding: 3px;
+    border:                      0px;
+    background-color:            transparent;
+    text-color:                  white;
+    cursor:                      text;
+    placeholder:                 "Search";
+    placeholder-color:           inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.0;
+}
+
+listview {
+    enabled:                     true;
+    columns:                     1;
+    lines:                       8;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    reverse:                     false;
+    fixed-height:                true;
+    fixed-columns:               true;
+    margin:                      0px 0px 0px 0px;
+    cursor:                      "default";
+}
+
+element {
+  alternate: false;
+    enabled:                     true;
+    spacing:                     2px;
+    padding:                     8px;
+    border-radius:               10px;
+    background-color:            rgba(0,0,0,0);
+    text-color:                  #EEEEEE;
+    cursor:                      pointer;
+}
+
+element normal.normal {
+    background-color:            #242323;
+    text-color:                  #EEEEEE;
+}
+element normal.urgent {
+    background-color:            #242323;
+    text-color:                  #EEEEEE;
+}
+element normal.active {
+    background-color:            #242323;
+    text-color:                  #EEEEEE;
+}
+element selected.normal {
+    background-color:            #ffffff;
+    text-color:                  #242323;
+}
+element selected.urgent {
+    background-color:            #ffffff;
+    text-color:                  #242323;
+}
+element selected.active {
+    background-color:            #ffffff;
+    text-color:                  #242323;
+}
+element-icon {
+    background-color:            inherit;
+    text-color:                  inherit;
+    size:                        20px;
+    cursor:                      inherit;
+}
+element-text {
+    background-color:            #242323; 
+    text-color:                  #EEEEEE;
+
+}
+element-text selected{
+  background-color: #ffffff;
+  text-color: #242323;
+  
+}
+element alternate.normal {
+    background-color: #242323;
+    text-color: #EEEEEE;
+}
+/*****----- Message -----*****/
+error-message {
+    padding:                     20px;
+    background-color:            transparent;
+    text-color:                  white;
+}
+message {
+    padding:                     0px;
+    background-color:            inherit;
+    text-color:                  #FF9030;
+}
+textbox {
+    padding:                     0px;
+    border-radius:               0px;
+    background-color:            inherit;
+    text-color:                  inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.0;
+}

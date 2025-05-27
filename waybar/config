@@ -1,7 +1,7 @@
 {
   "layer":"bottom",
   "position":"top",
-  "margin-top":5,
+  "margin-top":2,
   "margin-left":5,
   "margin-right":5,
   "margin-bottom":0,
@@ -9,7 +9,13 @@
   "spacing":0,
   "modules-left":["hyprland/workspaces"],
   "modules-center":["clock","mpris"],
-  "modules-right":["cava","pulseaudio","network","group/hardware"],
+  "modules-right":["cava","network","pulseaudio","group/hardware","upower"],
+  "upower": {
+     "icon-size": 15,
+     "hide-if-empty": true,
+     "tooltip": true,
+     "tooltip-spacing": 20
+  },
   "group/hardware":{
     "orientation": "horizontal",
     "modules":[
@@ -21,11 +27,9 @@
     "format":"",
     "on-click": "blueman-manager",
   },
-  "tray":{
-  "format":"ᯤ"
-  },
+  
   "network": {
-    "interface": "wlo1",
+    "interface": "wlan0",
     "format": "{ifname}",
     "format-wifi": "{bandwidthUpBytes} ⬆ | {bandwidthDownBytes} ⬇",
     "format-ethernet": "{ipaddr}/{cidr} 󰊗",
@@ -39,23 +43,19 @@
   "mpris": {
   "persistent":true,
   "format-stopped": "Songs plech :) no fun",
-	"format": "{dynamic} {player_icon}",
+	"format": " | {dynamic}",
 	"max-length":35,
 	"min-length":35,
-	"format-paused": "{status_icon} <i>{dynamic}</i>",
+	"format-paused": " | {status_icon} <i>{dynamic}</i>",
   "format-stopped": "Sad without any music :(, Play music",
-"on-click": "playerctl play",
-	"player-icons": {
-		"default": "🎶",
-		"mpv": "🎶"
-	},
+"on-click": "playerctl play",	
 	"status-icons": {
 		"paused": ""
 	},
 },
  
   "clock": {
-        "format": "{:%H:%M} | ",
+        "format": "{:%H:%M}",
         "format-alt": "{:%A, %B %d, %Y (%R)}  ",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "calendar": {
@@ -108,7 +108,6 @@
     "format-muted": " 0%",
     "scroll-step": 1,
     "on-click": "pavucontrol",
-    "ignored-sinks": ["Easy Effects Sink"]
   },
   "cava": {
         "cava_config":"$HOME/.config/cava/config",
