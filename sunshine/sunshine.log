@@ -1,0 +1,121 @@
+[2025-06-10 23:54:03.820]: Info: Sunshine version: 2025.122.141614
+[2025-06-10 23:54:03.820]: Info: Package Publisher: Third Party Publisher
+[2025-06-10 23:54:03.820]: Info: Publisher Website: 
+[2025-06-10 23:54:03.820]: Info: Get support: https://app.lizardbyte.dev/support
+[2025-06-10 23:54:03.847]: Info: System tray created
+[2025-06-10 23:54:03.932]: Error: Failed to create session: 
+[2025-06-10 23:54:03.932]: Info: Found display [wayland-1]
+[2025-06-10 23:54:03.933]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-06-10 23:54:03.933]: Info: Found interface: wl_output(58) version 4
+[2025-06-10 23:54:03.933]: Warning: Missing Wayland wire for wlr-export-dmabuf
+[2025-06-10 23:54:03.933]: Info: /dev/dri/card0 -> nvidia-drm
+[2025-06-10 23:54:03.933]: Info: /dev/dri/card1 -> i915
+[2025-06-10 23:54:03.933]: Info: Found display [wayland-1]
+[2025-06-10 23:54:03.933]: Info: Found display [wayland-1]
+[2025-06-10 23:54:03.933]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-06-10 23:54:03.933]: Info: Found interface: wl_output(58) version 4
+[2025-06-10 23:54:03.933]: Info: Resolution: 1920x1080
+[2025-06-10 23:54:03.933]: Info: Name: eDP-1
+[2025-06-10 23:54:03.933]: Info: Found monitor: AU Optronics 0x2992  (eDP-1)
+[2025-06-10 23:54:03.933]: Info: Offset: 0x0
+[2025-06-10 23:54:03.933]: Info: Logical size: 1280x720
+[2025-06-10 23:54:03.933]: Info: -------- Start of KMS monitor list --------
+[2025-06-10 23:54:03.933]: Info: Monitor 0 is eDP-1: AU Optronics 0x2992  (eDP-1)
+[2025-06-10 23:54:03.933]: Info: --------- End of KMS monitor list ---------
+[2025-06-10 23:54:03.961]: Warning: Gamepad ds5 is disabled due to Permission denied
+[2025-06-10 23:54:03.961]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-06-10 23:54:03.961]: Info: Trying encoder [nvenc]
+[2025-06-10 23:54:03.961]: Info: Screencasting with KMS
+[2025-06-10 23:54:03.961]: Info: /dev/dri/card0 -> nvidia-drm
+[2025-06-10 23:54:03.961]: Info: /dev/dri/card1 -> i915
+[2025-06-10 23:54:03.961]: Error: Couldn't find monitor [0]
+[2025-06-10 23:54:03.961]: Info: /dev/dri/card0 -> nvidia-drm
+[2025-06-10 23:54:03.962]: Info: /dev/dri/card1 -> i915
+[2025-06-10 23:54:03.962]: Error: Couldn't find monitor [0]
+[2025-06-10 23:54:04.162]: Info: Screencasting with KMS
+[2025-06-10 23:54:04.162]: Info: /dev/dri/card0 -> nvidia-drm
+[2025-06-10 23:54:04.162]: Info: /dev/dri/card1 -> i915
+[2025-06-10 23:54:04.162]: Error: Couldn't find monitor [0]
+[2025-06-10 23:54:04.162]: Info: /dev/dri/card0 -> nvidia-drm
+[2025-06-10 23:54:04.162]: Info: /dev/dri/card1 -> i915
+[2025-06-10 23:54:04.162]: Error: Couldn't find monitor [0]
+[2025-06-10 23:54:04.362]: Info: Encoder [nvenc] failed
+[2025-06-10 23:54:04.362]: Info: Trying encoder [vaapi]
+[2025-06-10 23:54:04.362]: Info: Screencasting with KMS
+[2025-06-10 23:54:04.362]: Info: /dev/dri/card0 -> nvidia-drm
+[2025-06-10 23:54:04.362]: Info: /dev/dri/card1 -> i915
+[2025-06-10 23:54:04.363]: Info: Found monitor for DRM screencasting
+[2025-06-10 23:54:04.363]: Info: Found connector ID [241]
+[2025-06-10 23:54:04.363]: Info: Found cursor plane [77]
+[2025-06-10 23:54:04.363]: Error: Couldn't initialize va display: unknown libva error
+[2025-06-10 23:54:04.363]: Warning: Monitor  doesn't support hardware encoding. Reverting back to GPU -> RAM -> GPU
+[2025-06-10 23:54:04.363]: Info: /dev/dri/card0 -> nvidia-drm
+[2025-06-10 23:54:04.363]: Info: /dev/dri/card1 -> i915
+[2025-06-10 23:54:04.363]: Info: Found monitor for DRM screencasting
+[2025-06-10 23:54:04.363]: Info: Found connector ID [241]
+[2025-06-10 23:54:04.363]: Info: Found cursor plane [77]
+[2025-06-10 23:54:04.372]: Info: Creating encoder [h264_vaapi]
+[2025-06-10 23:54:04.372]: Info: Color coding: SDR (Rec. 601)
+[2025-06-10 23:54:04.372]: Info: Color depth: 8-bit
+[2025-06-10 23:54:04.372]: Info: Color range: JPEG
+[2025-06-10 23:54:04.379]: Error: Couldn't initialize va display: unknown libva error
+[2025-06-10 23:54:04.380]: Info: Creating encoder [h264_vaapi]
+[2025-06-10 23:54:04.380]: Info: Color coding: SDR (Rec. 601)
+[2025-06-10 23:54:04.380]: Info: Color depth: 8-bit
+[2025-06-10 23:54:04.380]: Info: Color range: JPEG
+[2025-06-10 23:54:04.385]: Error: Couldn't initialize va display: unknown libva error
+[2025-06-10 23:54:04.386]: Info: Encoder [vaapi] failed
+[2025-06-10 23:54:04.387]: Info: Trying encoder [software]
+[2025-06-10 23:54:04.387]: Info: Screencasting with KMS
+[2025-06-10 23:54:04.387]: Info: /dev/dri/card0 -> nvidia-drm
+[2025-06-10 23:54:04.387]: Info: /dev/dri/card1 -> i915
+[2025-06-10 23:54:04.387]: Info: Found monitor for DRM screencasting
+[2025-06-10 23:54:04.387]: Info: Found connector ID [241]
+[2025-06-10 23:54:04.387]: Info: Found cursor plane [77]
+[2025-06-10 23:54:04.392]: Info: Creating encoder [libx264]
+[2025-06-10 23:54:04.392]: Info: Color coding: SDR (Rec. 601)
+[2025-06-10 23:54:04.392]: Info: Color depth: 8-bit
+[2025-06-10 23:54:04.392]: Info: Color range: JPEG
+[2025-06-10 23:54:04.394]: Info: [libx264 @ 0x55be2c668800] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2025-06-10 23:54:04.395]: Info: [libx264 @ 0x55be2c668800] profile High, level 4.2, 4:2:0, 8-bit
+[2025-06-10 23:54:04.410]: Info: [libx264 @ 0x55be2c668800] frame I:1     Avg QP:31.00  size:  1203
+[2025-06-10 23:54:04.410]: Info: [libx264 @ 0x55be2c668800] mb I  I16..4: 99.9%  0.0%  0.0%
+[2025-06-10 23:54:04.410]: Info: [libx264 @ 0x55be2c668800] 8x8 transform intra:0.0%
+[2025-06-10 23:54:04.410]: Info: [libx264 @ 0x55be2c668800] coded y,uvDC,uvAC intra: 0.0% 0.0% 0.0%
+[2025-06-10 23:54:04.410]: Info: [libx264 @ 0x55be2c668800] i16 v,h,dc,p: 97%  0%  3%  0%
+[2025-06-10 23:54:04.410]: Info: [libx264 @ 0x55be2c668800] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 75% 12%  0%  0%  0%  0% 12%
+[2025-06-10 23:54:04.410]: Info: [libx264 @ 0x55be2c668800] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 100%  0%  0%  0%  0%  0%  0%
+[2025-06-10 23:54:04.410]: Info: [libx264 @ 0x55be2c668800] i8c dc,h,v,p: 100%  0%  0%  0%
+[2025-06-10 23:54:04.410]: Info: [libx264 @ 0x55be2c668800] kb/s:577.44
+[2025-06-10 23:54:04.410]: Info: Creating encoder [libx264]
+[2025-06-10 23:54:04.410]: Info: Color coding: SDR (Rec. 601)
+[2025-06-10 23:54:04.410]: Info: Color depth: 8-bit
+[2025-06-10 23:54:04.410]: Info: Color range: JPEG
+[2025-06-10 23:54:04.411]: Info: [libx264 @ 0x55be2c668800] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[2025-06-10 23:54:04.412]: Info: [libx264 @ 0x55be2c668800] profile High 4:4:4 Predictive, level 4.2, 4:4:4, 8-bit
+[2025-06-10 23:54:04.433]: Info: [libx264 @ 0x55be2c668800] frame I:1     Avg QP:31.00  size:  1303
+[2025-06-10 23:54:04.433]: Info: [libx264 @ 0x55be2c668800] mb I  I16..4: 100.0%  0.0%  0.0%
+[2025-06-10 23:54:04.433]: Info: [libx264 @ 0x55be2c668800] 8x8 transform intra:0.0%
+[2025-06-10 23:54:04.433]: Info: [libx264 @ 0x55be2c668800] coded y,u,v intra: 0.0% 0.0% 0.0%
+[2025-06-10 23:54:04.433]: Info: [libx264 @ 0x55be2c668800] i16 v,h,dc,p: 97%  0%  3%  0%
+[2025-06-10 23:54:04.433]: Info: [libx264 @ 0x55be2c668800] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 75% 12%  0%  0%  0%  0% 12%
+[2025-06-10 23:54:04.433]: Info: [libx264 @ 0x55be2c668800] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  0%  0% 100%  0%  0%  0%  0%  0%  0%
+[2025-06-10 23:54:04.433]: Info: [libx264 @ 0x55be2c668800] kb/s:625.44
+[2025-06-10 23:54:04.434]: Info: Screencasting with KMS
+[2025-06-10 23:54:04.434]: Info: /dev/dri/card0 -> nvidia-drm
+[2025-06-10 23:54:04.434]: Info: /dev/dri/card1 -> i915
+[2025-06-10 23:54:04.434]: Info: Found monitor for DRM screencasting
+[2025-06-10 23:54:04.434]: Info: Found connector ID [241]
+[2025-06-10 23:54:04.434]: Info: Found cursor plane [77]
+[2025-06-10 23:54:04.440]: Info: 
+[2025-06-10 23:54:04.440]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-06-10 23:54:04.440]: Info: 
+[2025-06-10 23:54:04.440]: Info: Found H.264 encoder: libx264 [software]
+[2025-06-10 23:54:04.441]: Info: Open the Web UI to set your new username and password and getting started
+[2025-06-10 23:54:04.441]: Info: File /home/axolotl/.config/sunshine/sunshine_state.json doesn't exist
+[2025-06-10 23:54:04.442]: Error: Failed to create client: Daemon not running
+[2025-06-10 23:54:04.443]: Info: Configuration UI available at [https://localhost:47990]
+[2025-06-10 23:54:15.999]: Info: Web UI: [127.0.0.1] -- not authorized
+[2025-06-10 23:55:11.121]: Info: New credentials have been created
+[2025-06-10 23:55:16.290]: Info: Web UI: [127.0.0.1] -- not authorized
+[2025-06-10 23:55:16.294]: Info: Web UI: [127.0.0.1] -- not authorized
